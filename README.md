@@ -1,15 +1,12 @@
-## My Project
+## Credit risk prediction and explainability with Amazon SageMaker
 
-TODO: Fill this README out!
+We first build an ensemble model that takes tabular input data and produces multiple prediction outcomes for each individual model and the combined ensemble outcome. 
 
-Be sure to:
+The input features include financial information of the requestor like checking account status, credit history, number of credits, and loan information like amount, duration, purpose, installment rate and also demographic information like personal status and sex combination, age, foreign worker status. Total number of features are 20. The ensemble model produces a probability of good credit (low risk) for each individual and combined model. 
 
-* Change the title in this README
-* Edit your repository description on GitHub
+We then analyze this black box model and input data for bias detection and explainability with SageMaker Clarify. The output is aggregate and individual SHAP values for each input record and a summary of bias metrics for data and model. 
 
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+The attached notebook can be run in Amazon SageMaker Studio. 
 
 ## License
 
