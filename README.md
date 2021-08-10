@@ -8,6 +8,9 @@ We then analyze this black box model and input data for bias detection and expla
 
 The attached notebook can be run in Amazon SageMaker Studio. 
 
+<img width="982" alt="Screenshot 2021-08-10 at 13 21 39" src="https://user-images.githubusercontent.com/8871432/128865871-6603cab8-e705-4d93-ba68-4e5e7d2a0da4.png">
+
+
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
